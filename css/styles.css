@@ -1,0 +1,18 @@
+.nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.button{
+    background-color: $background-card;
+        border-width: 0;
+        height: 38px;
+        font-size: map-get($font-size, enlarged);
+        font-weight: map-get($font-weight, medium);
+        line-height: 1.625;
+        border-radius: 3px;
+        padding: 6px 22px;
+        font-family: "Roboto";
+.button-first-child{
+}
+    
