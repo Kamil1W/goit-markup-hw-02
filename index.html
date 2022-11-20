@@ -10,63 +10,68 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+  <body>
   <div>
-    <header class="up-page">
+    <menu class="up-page">
       <box class="logo">
         <a href="index.html"
           ><span class="logo-web">Web</span
           ><span class="logo-studio">Studio</span></a
         >
       </box>
-      <nav class="nav-buttons">
+      <nav>
         <div>
-          <a href="index.html">Agencja</a>
-          <a class="logo-portfolio" href="portfolio.html"
+          <a type="button"  class="nav-buttons" href="index.html">Agencja</a>
+          <a type="button"  class="nav-buttons" href="portfolio.html"
             ><span>Portfolio</span></a
           >
-          <a href="index.html">Kontakt</a>
+          <a type="button"  class="nav-buttons" href="index.html">Kontakt</a>
         </div>
       </nav>
       <div>
-        <p>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+48-111-111-111">+48 111 111 111</a>
-        </p>
+        <box class="mail-tel"
+          ><p>
+            <a type="button" class="mail-header" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a type="button" class="tel" href="tel:+48-111-111-111">+48 111 111 111</a>
+          </p>
+        </box>
       </div>
-    </header>
-    <body>
-      <main>
+    </menu>
+    
+      <header class="header">
         <div>
-          <h2>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h2>
-
-          <button type="button" class="button">Zamów Usługę</button>
+          <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button type="button" class="order">Zamów Usługę</button>
         </div>
+        </header>
+        <main>
         <div>
           <ul class="lorems">
             <li>
-              <h2>LOREM IPSUM</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-
-            <li>
-              <h2>LOREM IPSUM</h2>
+              <p class="lorem-head">LOREM IPSUM</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <h2>LOREM IPSUM</h2>
+              <p class="lorem-head">LOREM IPSUM</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <h2>LOREM IPSUM</h2>
+              <p class="lorem-head">LOREM IPSUM</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li>
+              <p class="lorem-head">LOREM IPSUM</p>
 
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -74,10 +79,9 @@
               </p>
             </li>
           </ul>
-
           <h2>Czym się zajmujemy</h2>
           <ul class="images">
-            <li>
+            <li class="what-we-do">
               <img
                 src="./images/img-3.jpg"
                 alt="Pisanie na klawiaturze"
@@ -86,7 +90,7 @@
               />
             </li>
 
-            <li>
+            <li class="what-we-do">
               <img
                 src="images/img-1.jpg"
                 alt="Telefon w dłoni"
@@ -95,7 +99,7 @@
               />
             </li>
 
-            <li>
+            <li class="what-we-do">
               <img
                 src="images/img-2.jpg"
                 alt="Tablet w dłoni"
@@ -105,68 +109,69 @@
             </li>
           </ul>
         </div>
+        
         <div>
           <h2>Nasz zespół</h2>
           <ul class="team">
-            <li>
+            <li class="team-borders">
               <img
                 src="images/img7-(1).jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <p>John Doe</p>
-              <p>Product Designer</p>
+              <p class="name">John Doe</p>
+              <p class="profession">Product Designer</p>
             </li>
 
-            <li>
+            <li class="team-borders">
               <img
                 src="images/img8-(1).jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <p>John Doe</p>
-              <p>Frontend Developer</p>
+              <p class="name">John Doe</p>
+              <p class="profession">Frontend Developer</p>
             </li>
 
-            <li>
+            <li class="team-borders">
               <img
                 src="images/img9-(1).jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <p>John Doe</p>
-              <p>Marketing</p>
+              <p class="name">John Doe</p>
+              <p class="profession">Marketing</p>
             </li>
 
-            <li>
+            <li class="team-borders">
               <img
                 src="images/img6-(1).jpg"
                 alt="John Doe"
                 width="270"
                 height="260"
               />
-              <p>John Doe</p>
-              <p>UI Designer</p>
+              <p class="name">John Doe</p>
+              <p class="profession">UI Designer</p>
             </li>
           </ul>
         </div>
       </main>
-      <footer>
+      <footer class="footer">
         <pre>
         <box class="logo">
           <a class="logo web" href="portfolio.html"
             ><span class="logo-web">Web</span
-            ><span class="logo-studio">Studio</span>
+            ><span class="logo-studio-footer">Studio</span>
           </a>
         </box>
         <address class="coordinates">
           m. Warszawa, Aleje Jerozolimskie 21
         </address>
-        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="tel" href="tel:+48-111-111-111">+48 111 111 111</a>
+        <a class="mail-main" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="tel-main" href="tel:+48-111-111-111">+48 111 111 111</a>
         </pre>
       </footer>
     </body>
