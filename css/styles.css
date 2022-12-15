@@ -10,11 +10,10 @@
   --ftr-bckgd-color: #2f303a;
 }
 body {
-  font-family: roboto, sans-serif;
-  background-color: #e5e5e5;
+  font-family: 'Roboto', 'Releway', sans-serif;
+  background-color: var(--white);
   font-style: normal;
   width: 1600px;
-  height: 2097px;
 }
 .logo {
   color: var(--blue);
@@ -269,6 +268,7 @@ h2 {
   color: var(--white);
 }
 .footer {
+  font-style: normal;
   background: var(--ftr-bckgd-color);
   list-style-type: none;
 }
@@ -306,13 +306,10 @@ h2 {
 
   color: var(--bckgd-pic-color);
 }
-.mail-tel:hover {
-  /* font-family: "Roboto";
-  font-style: normal; */
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 
+.mail-header:hover {
+  color: var(--blue);
+}
+.tel:hover {
   color: var(--blue);
 }
